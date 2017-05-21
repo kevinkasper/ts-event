@@ -22,7 +22,7 @@ $ yarn add ts-event --save
 import { EventDispatcher, IEvent } from 'ts-event';
 
 class Sample {
-    private onPropertyChanged: EventDispatcher<Sample, any> = new EventDispatcher<Sample, any>();
+    private onPropertyChanged: EventDispatcher<Sample, number> = new EventDispatcher<Sample, number>();
     private property: number = 0;
 
     public get Property(): number {
@@ -36,7 +36,7 @@ class Sample {
         this.onPropertyChanged.Trigger(this, this.Property);
     }
 
-    public get OnPropertyChanged(): IEvent<Sample, any> {
+    public get OnPropertyChanged(): IEvent<Sample, number> {
         return this.onPropertyChanged;
     }
 }
