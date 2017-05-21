@@ -1,0 +1,10 @@
+{
+  "name": "ts-event",
+  "version": "1.0.0",
+  "description": "A library for strongly typed events.",
+  "main": "./dist/event.js",
+  "types": "./dist/event.d.ts",
+  "repository": "https://github.com/kevinkasper/ts-event.git",
+  "author": "Kevin Kasper <kevin.kasper004@gmail.com>",
+  "license": "MIT"
+}

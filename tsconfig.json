@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "declaration": true,
+        "experimentalDecorators": true,
+        "module": "commonjs",
+        "outDir": "./dist",
+        "target": "es5"
+    }
+}
